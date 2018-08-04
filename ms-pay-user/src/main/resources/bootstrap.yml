@@ -1,0 +1,44 @@
+spring:
+  application:
+    name: ms-pay-user
+  cloud:
+    config:
+      discovery:
+        enabled: true
+        service-id: ms-pay-config
+  datasource:
+    url: jdbc:mysql://localhost:3306/test?useSSL=false
+    username: root
+    password: 1qaz2wsx
+    driver-class-name: com.mysql.jdbc.Driver
+  jpa:
+    database: mysql
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+#  datasource:
+#    url: jdbc:mysql://127.0.0.1:3306/test
+#    username: root
+#    password: 1qaz2wsx
+#    driver-class-name: com.mysql.jdbc.Driver
+#  jpa:
+#    database: mysql
+#    show-sql: true
+#    hibernate:
+#      ddl-auto: create
+server:
+  port: 8080
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka/
+management:
+  endpoints:
+    web:
+      exposure:
+        include: bus-refresh
+
+
+
+
+

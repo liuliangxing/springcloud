@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="mspayapi" />
+        <module name="mspayconfig" />
+        <module name="mspayorder" />
+        <module name="mspayregister" />
+        <module name="mspayuser" />
+        <module name="mspayzuul" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="ms-pay" target="1.8" />
+      <module name="mspayapi" target="1.8" />
+      <module name="mspayconfig" target="1.8" />
+      <module name="mspayorder" target="1.8" />
+      <module name="mspayregister" target="1.8" />
+      <module name="mspayuser" target="1.8" />
+      <module name="mspayzuul" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

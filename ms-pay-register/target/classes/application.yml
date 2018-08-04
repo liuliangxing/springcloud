@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: ms-pay-register
+server:
+  port: 8761
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka/
+    fetch-registry: false  # 因为是单体 Eureka 所以为 false
+    register-with-eureka: false # 如果是 Eureka server 为false

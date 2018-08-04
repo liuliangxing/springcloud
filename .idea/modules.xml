@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/ms-pay.iml" filepath="$PROJECT_DIR$/ms-pay.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ms-pay-api/mspayapi.iml" filepath="$PROJECT_DIR$/ms-pay-api/mspayapi.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ms-pay-config/mspayconfig.iml" filepath="$PROJECT_DIR$/ms-pay-config/mspayconfig.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ms-pay-order/mspayorder.iml" filepath="$PROJECT_DIR$/ms-pay-order/mspayorder.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ms-pay-register/mspayregister.iml" filepath="$PROJECT_DIR$/ms-pay-register/mspayregister.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ms-pay-user/mspayuser.iml" filepath="$PROJECT_DIR$/ms-pay-user/mspayuser.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ms-pay-zuul/mspayzuul.iml" filepath="$PROJECT_DIR$/ms-pay-zuul/mspayzuul.iml" />
+    </modules>
+  </component>
+</project>

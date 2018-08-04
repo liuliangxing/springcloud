@@ -1,0 +1,18 @@
+spring:
+  application:
+    name: ms-pay-config
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/liuliangxing/config/
+      profile: dev
+      label: master
+server:
+  port: 9000
+eureka:
+  client:
+    service-url:
+      defalutZone: http://localhost:8761/eureka/
+
+
